@@ -40,7 +40,15 @@
 
 #---------------- Trouver la position de la souris ----------------
 
-#from pynput.mouse import Listener
+#       from pynput.mouse import Listener
+#
+#       def ecrireAuFichier(x,y):
+#           print('position de la souris [0]'.format((x,y)))
+
+#       with Listener(on_move=ecrireAuFichier) as L:
+#       L.join()
+#
+#
 
 #---------------- Controller le clavier ----------------
 
@@ -52,9 +60,15 @@
 
 #---------------- Écouter le clavier ----------------
 
-from pynput.keyboard import Listener
+#       from pynput.keyboard import Listener
 
-#----------------
+#       def ecrireAuFichier(touche):
+#           Touche = str(touche)
+#           with open("log.txt", "a") as fichier:
+#               fichier.write(Touche)
+
+#       with Listener(on_press=ecrireAuFichier) as L:
+#           L.join()
 #--------------------------------------------------------------------------------
 
 
